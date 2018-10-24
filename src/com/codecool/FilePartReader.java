@@ -35,9 +35,9 @@ public class FilePartReader {
         String text = read();
         String[] lines = text.split("\n");
         StringBuilder sb = new StringBuilder();
-        for (int i = fromLine; i <= toLine; i++) {
+        for (int i = fromLine-1; i <= toLine-1; i++) {
             sb.append(lines[i]);
-            if (i != toLine) {
+            if (i != toLine-1) {
                 sb.append("\n");
             }
         }
