@@ -1,18 +1,19 @@
 package com.codecool;
 
 import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.*;
 
 class FilePartReaderTest {
 
-    @org.junit.jupiter.api.Test
+    @Test
     void setup() {
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void read() {
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void readLines() {
     }
 }
